@@ -6,6 +6,7 @@
 
 ul {
     margin: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -17,6 +18,9 @@ li {
 a {
     text-decoration: none;
     color: inherit;
+}
+p{
+    margin: 0;
 }
 
 body {
@@ -44,6 +48,7 @@ body {
     margin-right: 70px;
 }
 
+
 .menu__list {
     display: flex;
 }
@@ -59,4 +64,173 @@ body {
 .menu__link:hover{
     background-color: #131313;
     color:#fff;
+}
+.bike{
+    padding: 100px 0 150px;
+}
+.bike__inner{
+    display: flex;
+    justify-content: space-between;
+}
+.bike__column-slider{
+    flex-basis: 630px;
+    margin-left: 30px;
+    max-width: 630px;
+}
+.bike__title{
+    font-weight: 700;
+    font-size: 4.5em;
+    line-height: 77px;
+    margin: 60px 0 5px;
+}
+
+.bike__subtitle{
+    margin: 0 0 60px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 39px;
+    color: #6F6F6F;
+}
+
+.bike__text{
+    max-width: 430px;
+    margin-bottom: 20px;
+}
+.bike_link {
+    margin-top: 80px;
+    width: fit-content;
+    display: inline-block;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 1.1em;
+    text-transform: uppercase;
+    padding: 28px 81px;
+    background: #131313;
+    color: #fff;
+}
+.bike_link:after {
+    content:" ";
+    margin-left:  -1.1em;
+}
+
+.bike-slider .slick-dots{
+    right: 0;
+    top:50px;
+}
+
+
+.slick-dots {
+    position: absolute;
+}
+.slick-dots li+li{
+    padding-top: 10px;
+}
+.slick-dots button{
+    font-size: 0;
+    padding: 0;
+    border: none;
+    background-color: #131313;
+    width: 40px;
+    height: 15px;
+    border-radius: 7px;
+    cursor:pointer;
+    transition: all .3s;
+}
+
+.slick-active button, .slick-dots button:hover{
+    background-color:#FF4040;
+}
+.bike__list{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-around;
+}
+.bike__list-item{
+    min-width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    min-height: 58px;
+}
+.bike__list-num{
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.bike__list-text{
+    max-width: 160px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: lowercase;
+    margin:auto 0;
+}
+.info{
+    margin-bottom: 150px;
+}
+.info__inner{
+    display: flex;
+}
+.info-img{
+    margin-right: 60px;
+    flex-basis:570px;
+    object-fit: cover;
+}
+.info_list{
+    flex-basis:490px;
+}
+.info__item + .info__item{
+    padding-top: 50px;
+}
+.info__item-title{
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+}
+.info__item-text{
+    max-width: 450px;
+}
+.characteristics{
+    margin-bottom: 150px;
+}
+.characteristics__inner{
+    display: flex;
+}
+.characteristics__head{
+    margin: 0 0 40px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+.characteristics__img{
+    align-self: center;
+}
+.characteristics__items{
+    flex-basis: 570px;
+    margin-right: 60px;
+}
+.characteristics__list+.characteristics__list{
+    padding-top: 30px;
+}
+.characteristics__title{
+    padding: 2px 0 3px;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    background-color: #131313;
+    font-weight: 700;
+}
+.characteristics__line{
+    display: flex;
+    padding-top: 5px;
+    justify-content: space-between;
+    text-transform: lowercase;
+}
+.characteristics__name{
+    flex-basis: 285px;
+    padding-right: 25px;
+}
+.characteristics__descr{
+    flex-basis: 285px;
 }
