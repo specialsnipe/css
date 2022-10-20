@@ -112,13 +112,10 @@ body {
     content:" ";
     margin-left:  -1.1em;
 }
-
 .bike-slider .slick-dots{
     right: 0;
     top:50px;
 }
-
-
 .slick-dots {
     position: absolute;
 }
@@ -136,7 +133,6 @@ body {
     cursor:pointer;
     transition: all .3s;
 }
-
 .slick-active button, .slick-dots button:hover{
     background-color:#FF4040;
 }
@@ -213,7 +209,7 @@ body {
 .characteristics__list+.characteristics__list{
     padding-top: 30px;
 }
-.characteristics__title{
+.characteristics__title {
     padding: 2px 0 3px;
     font-size: 14px;
     text-transform: uppercase;
@@ -234,3 +230,58 @@ body {
 .characteristics__descr{
     flex-basis: 285px;
 }
+.slider{
+    margin-bottom: 50px;
+}
+.slider__items .slick-dots{
+    top: 0;
+    left: 0;
+}
+.slider__item{
+    padding-left: 50px;
+}
+.form{
+    max-width: 420px;
+}
+.form__title{
+    margin-bottom: 40px;
+    font-size: 16px;
+    line-height: 19px;
+    text-transform: uppercase;
+}
+.form__text{
+    max-width: 300px;
+    margin-bottom:30px;
+}
+.form__input-name,
+.form__input-phone{
+    width:100%;
+    border: none;
+    border-bottom: 1px solid #131313;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    outline: none;
+ }
+.form__input-name::placeholder,
+.form__input-phone::placeholder,
+.form__input-text {
+    opacity: 0.5;
+    color: #6F6F6F;
+}
+.form__input-text{
+    margin-bottom: 10px;
+}
+.form__label-box{
+
+}
+.form__input-radio{
+
+}
+.form__bike{
+    display: none;
+}
+.form__radio-style{
+
+}
+
+
